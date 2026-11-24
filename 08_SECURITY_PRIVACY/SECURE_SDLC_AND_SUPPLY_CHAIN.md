@@ -1,0 +1,3 @@
+# Secure Development Lifecycle and Supply Chain
+
+Require code review for auth, authorization, payments, identity, privacy, and deployment changes. Pin/update dependencies and review license, maintenance, and security posture. Generate SBOM where supported. Run static analysis, dependency/secret scanning, image scanning, and mobile security checks in CI. Protect build/release credentials with least privilege and MFA. Separate dev/test/prod secrets. Use reproducible builds where practical and record provenance. Treat CI, scripts, plugins, and generated code as attack surface. Establish vulnerability disclosure/remediation. Every suppressed finding needs severity, rationale, owner, and review/expiry date.
